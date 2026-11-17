@@ -36,9 +36,9 @@ function draw():Frame{
   }
   return [{id:"fabric",type:"xpmbitmap",x:0,y:0,data:rows.join("\n")},...panel("PIXEL LOOM",[
     (viewing?"Gallery "+(slot+1)+"/"+gallery.length:"On the loom")+"  "+p[0],
-    drafts[w.draft]+" / shift "+w.phase,notice||"Wheel: change draft",
+    drafts[w.draft]+" / shift "+w.phase,notice||(viewing?"Wheel: browse gallery":"Wheel: change draft"),
     viewing?"OK: edit this weave":"OK: palette   Start: shift",
-    "Hold Start: save weave",viewing?"Hold OK: leave gallery":"Hold OK: open gallery"
+    viewing?"Hold OK: leave gallery":"Hold Start: save weave",viewing?"":"Hold OK: open gallery"
   ])];
 }
 function input(key:Key){
