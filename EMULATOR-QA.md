@@ -9,3 +9,7 @@ The app was typechecked, built, installed and exercised on the emulator. Native 
 Reopened the saved gallery on firmware and verified its browsing, editing and exit instructions on the rear display.
 
 Firmware motion pass: up, ok, start. 10 distinct frames in the controls recording. App io.ncoooooper.pixelloom exited: finished; heap peak 83.1 of 128 KiB.
+
+## Display capture
+
+Firmware 1.3.1 rendered both README examples. Each square in a guide GIF is one front-display pixel enlarged to 9 × 9. The production archive was built from the source in this repository.

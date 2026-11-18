@@ -14,5 +14,25 @@
   "rendered": [
     "media/front.png",
     "media/back.png"
-  ]
+  ],
+  "sha256": "3a471c5d9e32a4d6c68ad7086d1d8d6fa655e0db838df378e1d689938662b1fb",
+  "display_test": {
+    "firmware": "1.3.1",
+    "input": "On-device controls",
+    "keys": [
+      [
+        "up"
+      ],
+      [
+        "ok",
+        "start"
+      ]
+    ],
+    "frames": 128,
+    "distinct_by_flow": [
+      7,
+      11
+    ],
+    "exit": "App io.btype.pixelloom exited: finished; heap peak 88.3 of 128 KiB"
+  }
 }
