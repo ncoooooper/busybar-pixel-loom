@@ -4,6 +4,20 @@ Weave a pocket-sized pixel textile with six drafts, four palettes and an eight-p
 
 Turn a weave into a variation without redrawing it. The wheel changes the structure, the click changes its colours, and Start moves the threads across the 72-column display. The reverse side keeps the draft name and palette visible while the front stays all fabric.
 
+## Screen transitions
+
+The shuttle crosses the threads as the weave changes. Follow one column through the pattern and colour changes.
+
+![Pixel Loom front display. The shuttle crosses the threads as the weave changes. Follow one column through the pattern and colour changes.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Pixel Loom rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Choose the shape of the weave
 
 1. Open Pixel Loom and look at the front while turning the wheel one notch at a time.
@@ -34,6 +48,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. The front display is enlarged 9× and the end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The last frame pauses for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
