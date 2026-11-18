@@ -7,3 +7,5 @@ Verified draft, palette and phase editing, saving and browsing a gallery piece. 
 The app was typechecked, built, installed and exercised on the emulator. Native captures are under screenshots/. The tested installable archive is in packages/.
 
 Reopened the saved gallery on firmware and verified its browsing, editing and exit instructions on the rear display.
+
+Firmware motion pass: up, ok, start. 10 distinct frames in the controls recording. App io.ncoooooper.pixelloom exited: finished; heap peak 83.1 of 128 KiB.
