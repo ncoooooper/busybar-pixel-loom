@@ -1,6 +1,17 @@
 {
   "app": "busybar-pixel-loom",
-  "sha256": "387f93aeb186f009a921c4521986324cdd911d1a0e63222c3aa951b0dcf339d3",
+  "sha256": "3ce91135c76e1436b2c90f33fedb040f005ed0f29b2dd717f670119734df3e34",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.pixelloom",
+    "sha256": "3ce91135c76e1436b2c90f33fedb040f005ed0f29b2dd717f670119734df3e34",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 95.8,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
